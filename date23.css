@@ -1,0 +1,110 @@
+body{
+    background-color: gray;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    height: 82px;
+    width: 1500px;
+    background-color: bisque;
+}
+.brand{
+    color: black;
+    background-color: red;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    background-color: red;
+    margin-left: 100px;
+    
+}
+#search{
+    margin-left: 470px;
+    height: 30px;
+    width: 200px;
+   
+}
+#imag1{
+    margin-left: 50px;
+}
+.dashboard{
+    background-color: red;
+    height: 610px;
+    width: 300px;
+}
+.f1{
+    display: flex;
+    gap: 20px;
+    margin-left: 170px;
+    margin-top: -600px;
+    justify-content: center;
+}
+.f2{
+    background-color: white;
+    height: 144px;
+    width: 200px;
+    border-radius: 8px;
+    
+}
+#image2{
+    background-color: red;
+}
+.f3{
+    background-color: white;
+    height: 144px;
+    width: 200px;
+    top: 100px;
+    border-radius: 8px;
+}
+.f4{
+    background-color: white;
+    height: 144px;
+    width: 200px;
+    border-radius: 8px;
+}.f5{
+    background-color: white;
+    height: 144px;
+    width: 200px;
+    border-radius: 8px;
+}
+#image3{
+    background-color: red;
+}
+.table{
+    height: 310px;
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 400px;
+background-color: white;
+border-radius: 8px;
+    
+}
+th{
+    padding: 10px;
+}
+.table2{
+    height: 310px;
+    width: 400px; ;
+    margin-left:900px ;
+    margin-top: -330px;
+    background-color: white;
+    border-radius: 8px;
+}
+.d1{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+#white{
+    background-color: white;
+}
+#income{
+    margin-top: -45px;
+    margin-left: 50px;
+}
+
+
+    

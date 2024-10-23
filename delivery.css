@@ -1,0 +1,27 @@
+.hii{
+    display: flex;
+}
+.bye{
+    margin-left: 300px;
+    top: -10px;
+}
+.so{
+    margin-top: 100px;
+    
+}
+.hlo{
+    padding-left: 150px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(246, 78, 78);
+    
+}
+h1{
+    font-style: oblique;
+}
+a{
+    
+    text-decoration: none;
+}

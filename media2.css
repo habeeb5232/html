@@ -1,0 +1,138 @@
+
+*{
+    margin: 0%;
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(2, 45, 47);
+    padding: 30px;
+    
+    
+
+}
+.nav3{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    text-align: center;
+    padding-right: 30px;
+    color: white;
+    
+}
+@media  screen and (max-width: 800px) {
+    .nav{flex-direction: column;}
+    .nav3{flex-direction: column;}
+    
+}
+.main{
+ background-image: url(https://tse1.mm.bing.net/th?id=OIP.r_7mlPeGppbnVibq0z667wHaEK&pid=Api&P=0&h=220);
+    background-repeat: no-repeat;
+    background-size: 100% 500px ;
+    height: 500px;
+}
+.hii{
+    transform: translate(100px,100px);
+    background-color: red;
+    max-width: 500px;
+}
+.hloo{
+    transform: translate(100px,100px); 
+    width: fit-content; 
+}
+
+
+.nav3 li{
+    transition: color .5s;
+    
+}
+.nav3 li:hover{
+    color: black;
+    background-color: blue;
+    
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(3, 3, 48);
+    padding: 5px;
+    
+    
+
+}
+.first1{
+    justify-content: space-around;
+    display: flex;
+    gap: 5px;
+    
+}
+.hi{
+    border-radius: 8px;
+    padding-top: 50px;
+    text-align: center;
+   height: 200px;
+   width: 300px;
+    background-color: rgb(255, 0, 4)
+    
+}
+.hi1{
+    border-radius: 8px;
+    padding-top: 50px;
+    
+    text-align: center;
+  height: 200px;
+  width: 300px;
+    background-color: rgb(67, 67, 160);
+}
+.hlo{
+    justify-content: space-around;
+    display: flex;
+    gap: 5px;
+    
+}
+.hlo1{
+    border-radius: 8px;
+    margin: 5px;
+    padding-top: 50px;
+    
+    text-align: center;
+   height: 200px;
+   width: 300px;
+    background-color: blueviolet;
+
+}
+.hlo2{
+    border-radius: 8px;
+    margin: 5px;
+    padding-top: 50px;
+    text-align: center;
+   height: 200px;
+   width: 300px;
+
+   background-color: rgb(43, 226, 183);
+
+}
+
+
+.img1{
+    border-radius: 8px;
+    padding-left: 5px;
+    height: 500px;
+    width: 100%;
+}
+@media  screen and (max-width:800px) {
+    .first1{flex-direction: column;}
+    .hlo{flex-direction: column;}
+    .first{flex-direction: column;}
+    .hii{transform: translate(0px,100px);}
+    .hloo{ transform: translate(0px,100px); }
+    
+}
+
+
+
+
+    

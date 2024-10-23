@@ -1,0 +1,22 @@
+.first{
+    position: relative;
+    justify-content: center;
+    margin-left: 700px;
+}
+.second{
+    position: absolute;
+    justify-content: center;
+    top: 40px;
+    left: -100px;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+h5{
+    position: absolute;
+    top: 600px;
+    left: -100px;
+    color: blueviolet;
+}
+

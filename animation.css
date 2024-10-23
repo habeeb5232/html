@@ -1,0 +1,85 @@
+*{
+    margin-top: 0;
+    margin-bottom: o;
+    box-sizing: border-box;
+}
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* .first1{ */
+    /* height: 100px;
+    width: 200px; */
+/* } */
+.first{
+    background-image:linear-gradient(rgba(9, 2, 39,93%), rgba(22, 19, 48,93%)), url(restoran.jpg);
+    width: 100%;
+    height: 100vh;
+    /* background-size: 100%; */
+}
+.h11{
+    color: chocolate;
+}
+.nav1{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+   
+    margin-top: -40px;
+    margin-left: 780px;
+    font-weight: 700;
+}
+.b1{
+    background-color: chocolate;
+    color: white;
+    font-weight: 700;
+}
+
+.nav1 li{
+    color: white;
+    transition: color 5s;
+}
+.nav1 li:hover{
+    color: chocolate;
+}
+.img1{
+    position: relative;
+    
+    animation-name: rotate1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotate1{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+.ss{
+    animation-name: left;
+    animation-iteration-count: 1;
+    animation-duration: 5s;  
+    color: white;
+
+}
+@keyframes left{
+    from{transform: translate(-770px);}
+    to{transform: translate(0px);}
+}
+#rr{
+    font-size: 100px;
+}
+.b2{
+    height: 40px;
+    width: 150px;
+    background-color: chocolate;
+    color: white;
+    font-size: 15px;
+}
+.rr{
+    margin-top: 10px;
+}
+
+
+
+

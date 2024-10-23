@@ -1,0 +1,24 @@
+h1{
+    color:green;
+    padding: 20px;
+    
+
+
+}
+
+body{
+
+    background-color: aquamarine;
+    background-image: url(https://th.bing.com/th?id=OIP.GPFEY6kfgxbsja6gmrW6rwAAAA&w=306&h=203&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2);
+    background-repeat: no-repeat;
+    /* background-position: top bottom; */
+    background-size: cover;
+
+}
+
+div{
+    height: 202px;
+    width: 200px;
+    background-color: red;
+    border-radius: 100%;
+}

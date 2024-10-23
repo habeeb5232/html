@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.main{
+    height: 100px;
+    width: 1000px;
+    margin-left: 200px;
+    
+}
+.h31{
+    margin-left: 440px;
+}
+.main1{
+   background-image: url(hotel.png);
+    height: 600px;
+    width: 1500px;
+    background-size:1500px 700px ;
+    background-repeat: no-repeat;
+}
+
+
+
+.main2{
+    margin-top: 100px;
+}

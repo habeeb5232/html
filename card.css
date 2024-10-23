@@ -1,0 +1,114 @@
+.hole{
+    display: flex;
+    margin-left: 100px;
+
+}
+.left{
+    display: inline-block;
+    border: 0px solid;
+    height: 700px;
+    width: 600px;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.odPqSj0HFiP8vXKKzaU_wAHaE8&pid=Api&P=0&h=220);
+   background-attachment: fixed;
+   background-size: cover;
+   position: relative;
+}    
+#front{
+    position: absolute;
+    top: 90px;
+    left: 240px;
+}
+#back{
+    position: absolute;
+    top: 360px;
+    left: 350px;
+}
+.right{
+    background-color: white;
+    background-size: cover;
+    width: 1200px;
+    text-align: center;
+    justify-content: center;
+    line-height: 10px;
+    font-family: ui-monospace;
+    font-weight: 800;
+}
+
+
+#cardholder{
+    height: 40px;
+    width: 360px;
+    margin-left: 200px;
+}
+
+#cardnumber{
+    height: 40px;
+    width: 360px;
+    margin-left: 100px;
+
+}
+#cardnum{
+    margin-right:50  px;
+    
+}
+#exp{
+    margin-left:400px;
+
+}
+#number1{
+    width: 80px;
+    height: 40px;
+    margin-left: 210px;
+    
+
+}
+#number2{
+    width: 80px;
+    height: 40px;
+}
+.date{
+    display: flex;
+    margin-left: 210px;
+    border-radius: 5px;
+    border: 0px solid;
+
+    color: white;
+    font-size: large;
+    font-weight: bold;
+
+}
+button{
+    width: 365px;
+    height: 50px;
+    margin-left: 210px;
+    border-radius: 5px;
+    border: 0px solid;
+    background-color: rgb(189, 150, 225);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid wheat;
+    font-size: medium;
+    font-weight: bold;
+}
+label{
+    font-size: 15px
+}
+::placeholder{
+    color: bisque;
+    font-family: cursive;
+    padding-left: 20px;
+
+}
+.entry{
+    margin-top: 200px;
+    
+}
+.selection {
+    display: flex;
+}
+
+
